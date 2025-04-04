@@ -54,7 +54,7 @@ You can explore my portfolio website here: [Live Website](#)
 
 2- Feel free to reach out if you have any questions or suggestions:
 
-- **Email**: your-email@example.com
+- **Email**: ashutosh.maurya2285@gmail.com (work)
 - [LinkedIn](https://www.linkedin.com/in/ashu-maurya-9026xxxx/) 
 - [Twitter](https://twitter.com/akm_royals)
 - [GitHub](https://github.com/akmroyal)
