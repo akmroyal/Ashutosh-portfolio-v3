@@ -51,11 +51,11 @@ export default function ProfileContent() {
         url: "https://x.com/akm_royals",
         icon: <Twitter className="h-6 w-6" />,
       },
-      {
-        title: "Portfolio",
-        url: "https://yourportfolio.com",
-        icon: <Globe className="h-6 w-6" />,
-      },
+      // {
+      //   title: "Portfolio",
+      //   url: "https://yourportfolio.com",
+      //   icon: <Globe className="h-6 w-6" />,
+      // },
       {
         title: "Email",
         url: "mailto:ashutosh.maurya2285@gmail.com",
@@ -170,7 +170,7 @@ export default function ProfileContent() {
           className="text-center mb-12"
         >
           <h1 className="text-3xl font-bold mb-2">Ashutosh Maurya</h1>
-          <p className="text-xl text-muted-foreground mb-4">Fullstack Developer</p>
+          <p className="text-xl text-muted-foreground mb-4">Fullstack Developer & Java Programmer</p>
           <p className="max-w-2xl text-muted-foreground">
             Passionate about creating elegant solutions to complex problems. Experienced in Java, DSA, and modern web
             technologies.

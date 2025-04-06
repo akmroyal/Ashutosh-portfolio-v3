@@ -38,7 +38,7 @@ export default function SkillsSection() {
     {
       category: "DevOps & Tools",
       icon: <GitBranch className="h-8 w-8 text-primary" />,
-      items: ["Git", "Docker (Basic)", "AWS",],
+      items: ["Git", "Docker (Basic)", "AWS(Basic)",],
     },
     {
       category: "Architecture",

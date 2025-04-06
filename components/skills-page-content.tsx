@@ -75,7 +75,7 @@ export default function SkillsPageContent() {
         { name: "Git", level: 90 },
         { name: "Docker", level: 45 },
         // { name: "CI/CD", level: 80 },
-        { name: "AWS", level: 65 },
+        { name: "AWS(Basic)", level: 40 },
         { name: "Linux", level: 10 },
         // { name: "Agile Methodologies", level: 85 },
       ],

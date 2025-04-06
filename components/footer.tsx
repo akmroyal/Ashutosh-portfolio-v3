@@ -130,7 +130,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-4">
             <Button variant="outline" size="sm" asChild className="group">
-              <Link href="#">
+              <Link href="https://drive.google.com/file/d/1g-HFdWDeUtshGh_tnRn5bcGzPBX5MlEv/view?usp=sharing">
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download CV
               </Link>
