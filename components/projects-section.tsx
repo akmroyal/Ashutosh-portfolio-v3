@@ -57,15 +57,16 @@ export default function ProjectsSection() {
     //   github: "#",
     //   demo: "#",
     // },
-    // {
-    //   title: "Competitive Programming Solutions",
-    //   description:
-    //     "A collection of solutions to competitive programming problems from platforms like LeetCode, Codeforces, and HackerRank.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["Java", "C++", "Algorithms", "Data Structures", "Problem Solving"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "Competitive Programming Solutions",
+      description:
+        "A collection of solutions to competitive programming problems from platforms like LeetCode, GFG, CodingNinjas, and HackerRank.",
+      image: "/DSA.png",
+      tags: ["Java", "Python", "C/C++", "Algorithms", "Data Structures", "Problem Solving"],
+      github: "https://github.com/akmroyal/DSA_Q_sheets_Preparation.git",
+      demo: "#",
+      featured: true,
+    },
     // {
     //   title: "DSA Playground",
     //   description:

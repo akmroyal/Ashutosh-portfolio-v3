@@ -83,16 +83,16 @@ export default function ProjectsPageContent() {
     //   demo: "#",
     //   featured: true,
     // },
-    // {
-    //   title: "Competitive Programming Solutions",
-    //   description:
-    //     "A collection of solutions to competitive programming problems from platforms like LeetCode, Codeforces, and HackerRank.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["Java", "C++", "Algorithms", "Data Structures", "Problem Solving"],
-    //   github: "#",
-    //   demo: "#",
-    //   featured: true,
-    // },
+    {
+      title: "Competitive Programming Solutions",
+      description:
+        "A collection of solutions to competitive programming problems from platforms like LeetCode, GFG, CodingNinjas, and HackerRank.",
+      image: "/DSA.png",
+      tags: ["Java","Python", "C/C++", "Algorithms", "Data Structures", "Problem Solving"],
+      github: "https://github.com/akmroyal/DSA_Q_sheets_Preparation.git",
+      demo: "#",
+      featured: true,
+    },
     // {
     //   title: "DSA Playground",
     //   description:
@@ -341,10 +341,10 @@ export default function ProjectsPageContent() {
                                 </Button>
                                 <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
                                   {/* <Link href={project.demo} target="_blank"> */}
-                                    <span className="flex items-center">
-                                      <ExternalLink className="mr-2 h-4 w-4" />
-                                      Demo
-                                    </span>
+                                  <span className="flex items-center">
+                                    <ExternalLink className="mr-2 h-4 w-4" />
+                                    Demo
+                                  </span>
                                   {/* </Link> */}
                                 </Button>
                               </div>
