@@ -2,7 +2,11 @@
 
 A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
 
-![Portfolio Website Screenshot](/public/screenshot.png)
+![Portfolio Website](/public/Portfolio-Gif.gif)
+
+## 🌐 Visit My Portfolio
+
+You can explore my portfolio website here: [Live Website](https://ashutosh-portfolio-v3.vercel.app/)
 
 ## 🌟 Features
 
@@ -43,10 +47,6 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Fra
 - **Projects**: Portfolio of work with filtering options
 - **Profile**: Professional profiles and social links
 - **Contact**: Contact form and information
-
-## 🌐 Visit My Portfolio
-
-You can explore my portfolio website here: [Live Website](#)
 
 ## 🔗 Connect With Me
 
