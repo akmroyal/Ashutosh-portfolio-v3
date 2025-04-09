@@ -23,6 +23,7 @@ export default function ProjectsPageContent() {
       github: "https://github.com/akmroyal/Gamified-EdTech-Project",
       demo: "#",
       featured: true,
+      deploy: false,
     },
     {
       title: "Online Book Store",
@@ -33,6 +34,7 @@ export default function ProjectsPageContent() {
       github: "https://github.com/akmroyal/online-book-managment-frontend.git",
       demo: "#",
       featured: true,
+      deploy: false,
     },
     {
       title: "PDF Converter : Any 2 Any",
@@ -40,8 +42,9 @@ export default function ProjectsPageContent() {
       image: "/Any2Any.png",
       tags: ["React", "JavaScript", "TailwindCss", "PDF.js", "File-Saver", "react-dropzone"],
       github: "https://github.com/akmroyal/ANY-2-ANY-Convrter-Project.git",
-      demo: "#",
+      demo: "https://any-2-any-convrter-project.vercel.app/",
       featured: false,
+      deploy: true,
     },
     {
       title: "Moder-Portfolio-Design",
@@ -51,6 +54,7 @@ export default function ProjectsPageContent() {
       github: "https://github.com/akmroyal/Ashutosh-portfolio-v3.git",
       demo: "https://ashutosh-portfolio-v3.vercel.app/",
       featured: true,
+      deploy: true,
     },
     // {
     //   title: "Weather Forecast App",
@@ -60,6 +64,7 @@ export default function ProjectsPageContent() {
     //   github: "#",
     //   demo: "#",
     //   featured: false,
+    //   deploy: false,
     // },
     {
       title: "Portfolio Website",
@@ -69,6 +74,7 @@ export default function ProjectsPageContent() {
       github: "https://github.com/akmroyal/Demo-Portfolio-Design-ReactJS.git",
       demo: "#",
       featured: false,
+      deploy: false,
     },
   ]
 
@@ -82,16 +88,18 @@ export default function ProjectsPageContent() {
     //   github: "#",
     //   demo: "#",
     //   featured: true,
+    //   deploy: false,
     // },
     {
       title: "Competitive Programming Solutions",
       description:
         "A collection of solutions to competitive programming problems from platforms like LeetCode, GFG, CodingNinjas, and HackerRank.",
       image: "/DSA.png",
-      tags: ["Java","Python", "C/C++", "Algorithms", "Data Structures", "Problem Solving"],
+      tags: ["Java", "Python", "C/C++", "Algorithms", "Data Structures", "Problem Solving"],
       github: "https://github.com/akmroyal/DSA_Q_sheets_Preparation.git",
       demo: "#",
       featured: true,
+      deploy: false,
     },
     // {
     //   title: "DSA Playground",
@@ -102,6 +110,7 @@ export default function ProjectsPageContent() {
     //   github: "#",
     //   demo: "#",
     //   featured: false,
+    //   deploy: false,
     // },
     // {
     //   title: "Graph Theory Explorer",
@@ -111,6 +120,7 @@ export default function ProjectsPageContent() {
     //   github: "#",
     //   demo: "#",
     //   featured: false,
+    //   deploy: false,
     // },
     // {
     //   title: "Dynamic Programming Visualizer",
@@ -120,6 +130,7 @@ export default function ProjectsPageContent() {
     //   github: "#",
     //   demo: "#",
     //   featured: false,
+    //   deploy: false,
     // },
   ]
 
@@ -255,14 +266,24 @@ export default function ProjectsPageContent() {
                                         </span>
                                       </Link>
                                     </Button>
-                                    <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
-                                      {/* <Link href={project.demo} target="_blank"> */}
-                                      <span className="flex items-center">
-                                        <ExternalLink className="mr-2 h-4 w-4" />
-                                        Demo
-                                      </span>
-                                      {/* </Link> */}
-                                    </Button>
+                                    {project.deploy ? (
+                                      <Button size="sm" className="hover:scale-105 transition-transform">
+                                        <Link href={project.demo} target="_blank">
+                                          <span className="flex items-center">
+                                            <ExternalLink className="mr-2 h-4 w-4" />
+                                            Demo
+                                          </span>
+                                        </Link>
+                                      </Button>
+                                    ) : (
+                                      <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
+                                        <span className="flex items-center">
+                                          <ExternalLink className="mr-2 h-4 w-4" />
+                                          Demo
+                                        </span>
+                                      </Button>
+                                    )
+                                    }
                                   </div>
                                 </motion.div>
                               )}
@@ -339,14 +360,24 @@ export default function ProjectsPageContent() {
                                     </span>
                                   </Link>
                                 </Button>
-                                <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
-                                  {/* <Link href={project.demo} target="_blank"> */}
-                                  <span className="flex items-center">
-                                    <ExternalLink className="mr-2 h-4 w-4" />
-                                    Demo
-                                  </span>
-                                  {/* </Link> */}
-                                </Button>
+                                {project.deploy ? (
+                                  <Button size="sm" className="hover:scale-105 transition-transform">
+                                    <Link href={project.demo} target="_blank">
+                                      <span className="flex items-center">
+                                        <ExternalLink className="mr-2 h-4 w-4" />
+                                        Demo
+                                      </span>
+                                    </Link>
+                                  </Button>
+                                ) : (
+                                  <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
+                                    <span className="flex items-center">
+                                      <ExternalLink className="mr-2 h-4 w-4" />
+                                      Demo
+                                    </span>
+                                  </Button>
+                                )
+                                }
                               </div>
                             </motion.div>
                           )}

@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
+A modern, responsive portfolio website, with automatic theme changing effect built with Next.js, Tailwind CSS, and Framer Motion.
 
 ![Portfolio Website](/public/Portfolio-Gif.gif)
 
@@ -13,6 +13,7 @@ You can explore my portfolio website here: [Live Website](https://ashutosh-portf
 - **Modern UI/UX**: Clean and professional design with smooth animations
 - **Responsive Design**: Optimized for all device sizes
 - **Dark/Light Mode**: Multiple theme options with custom color schemes
+- **Automatic Theme Change**: Changes the whole theme according to your desire 
 - **Interactive Elements**: Custom cursor, page transitions, and hover effects
 - **Blog Section**: Showcase articles and writing samples
 - **Project Showcase**: Display your work with detailed project cards
