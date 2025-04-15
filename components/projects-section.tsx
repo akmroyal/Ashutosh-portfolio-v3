@@ -27,6 +27,7 @@ export default function ProjectsSection() {
       tags: ["Astro", "TypeScript", "React", "ShadCn", "MaterialUI"],
       github: "https://github.com/akmroyal/Gamified-EdTech-Project",
       demo: "#",
+      deploy: false,
     },
     {
       title: "Library Management System",
@@ -36,6 +37,7 @@ export default function ProjectsSection() {
       tags: ["ReactJs", "TailwindCSS", "Node.js", "MongoDB", "expressJS"],
       github: "https://github.com/akmroyal/online-book-managment-frontend.git",
       demo: "#",
+      deploy: false,
     },
     {
       title: "PDF Converter : Any 2 Any",
@@ -43,7 +45,8 @@ export default function ProjectsSection() {
       image: "/Any2Any.png",
       tags: ["React", "TailwindCSS", "pdf.js", "file-saver", "react-dropzone"],
       github: "https://github.com/akmroyal/ANY-2-ANY-Convrter-Project.git",
-      demo: "#",
+      demo: "https://any-2-any-convrter-project.vercel.app/",
+      deploy: true,
     },
   ]
 
@@ -172,12 +175,30 @@ export default function ProjectsSection() {
                                 </span>
                               </Link>
                             </Button>
-                            <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
+                            {/* <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
                               <span className="flex items-center">
                                 <ExternalLink className="mr-2 h-4 w-4" />
                                 Demo
                               </span>
-                            </Button>
+                            </Button> */}
+                            {project.deploy ? (
+                              <Button size="sm" className="hover:scale-105 transition-transform">
+                                <Link href={project.demo} target="_blank">
+                                  <span className="flex items-center">
+                                    <ExternalLink className="mr-2 h-4 w-4" />
+                                    Demo
+                                  </span>
+                                </Link>
+                              </Button>
+                            ) : (
+                              <Button size="sm" className="hover:scale-105 transition-transform" onClick={handleDemo}>
+                                <span className="flex items-center">
+                                  <ExternalLink className="mr-2 h-4 w-4" />
+                                  Demo
+                                </span>
+                              </Button>
+                            )
+                            }
                           </div>
                         </motion.div>
                       )}

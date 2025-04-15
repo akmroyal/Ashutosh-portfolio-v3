@@ -28,7 +28,7 @@ const themes = [
 export function ThemeSwitcher() {
   const { setTheme, theme: currentTheme } = useTheme()
   const [isOpen, setIsOpen] = useState(false)
-  const [autoChangeTheme, setAutoChangeTheme] = useState(false)
+  const [autoChangeTheme, setAutoChangeTheme] = useState(true)
   const [currentIndex, setCurrentIndex] = useState(0)
 
   // Load auto-change preference from localStorage on component mount
