@@ -10,7 +10,7 @@ You can explore my portfolio website here: [Live Website](https://ashutosh-portf
 
 ## 🌟 Features
 
-- **Modern UI/UX**: Clean and professional design with smooth animations
+- **Modern UI/UX**: Clean and professional design with smooth animations.
 - **Responsive Design**: Optimized for all device sizes
 - **Dark/Light Mode**: Multiple theme options with custom color schemes
 - **Automatic Theme Change**: Changes the whole theme according to your desire 
