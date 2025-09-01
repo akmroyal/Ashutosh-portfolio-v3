@@ -10,46 +10,118 @@ export default function SkillsSection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
   const skills = [
+    // {
+    //   category: "Programming Languages",
+    //   icon: <Code className="h-8 w-8 text-primary" />,
+    //   items: ["Java", "JavaScript", "C/C++", "Python (Basic)"],
+    // },
     {
       category: "Programming Languages",
       icon: <Code className="h-8 w-8 text-primary" />,
-      items: ["Java", "JavaScript", "C/C++", "Python (Basic)"],
+      items: [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "C/C++",
+        "Python",
+      ],
     },
     {
       category: "Data Structures & Algorithms",
       icon: <Cpu className="h-8 w-8 text-primary" />,
-      items: ["DSA", "Problem Solving", "Algorithm Optimization", "Competitive Programming"],
+      items: [
+        "Arrays & Strings",
+        "Linked Lists",
+        "Trees & Graphs",
+        "Dynamic Programming",
+        "Sorting Algorithms",
+        "Graph Algorithms",
+      ],
     },
     {
       category: "Frontend Development",
       icon: <Globe className="h-8 w-8 text-primary" />,
-      items: ["HTML/CSS", "React.js", "Next.js (Basic)", "Redux", "Tailwind CSS", "Material UI", "Responsive Design"],
+      items: [
+        "HTML/CSS",
+        "React.js",
+        "Next.js",
+        "Redux",
+        "Tailwind CSS",
+        "Material UI",
+        "Responsive Design",
+      ],
     },
     {
       category: "Backend Development",
       icon: <Server className="h-8 w-8 text-primary" />,
-      items: ["Node.js", "Express.js", "RESTful APIs",],
+      items: [
+        "Node.js",
+        "Express.js",
+        "Supabase",
+        "Firebase",
+        "RESTful APIs",
+      ],
     },
     {
       category: "Database",
       icon: <Database className="h-8 w-8 text-primary" />,
-      items: ["MySQL", "MongoDB"],
+      items: [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        // "Redis",
+        // "ORM (Hibernate, Sequelize)",
+        // "Database Design",
+      ],
     },
     {
       category: "DevOps & Tools",
       icon: <GitBranch className="h-8 w-8 text-primary" />,
-      items: ["Git", "Docker (Basic)", "AWS(Basic)",],
+      items: [
+        "Git",
+        "Docker",
+        "CI/CD",
+        "AWS(Basic)",
+        "Linux",
+        // "Agile Methodologies",
+      ],
     },
     {
       category: "Architecture",
       icon: <Layers className="h-8 w-8 text-primary" />,
-      items: ["System Design", "Operating System", "Object Oriented Programming"],
+      items: [
+        "Operating System",
+        "Object Oriented Programming",
+        // "Design Patterns",
+        "System Design",
+        "API Design",
+        // "Scalable Architecture",
+      ],
     },
-    // {
-    //   category: "Mobile Development",
-    //   icon: <Smartphone className="h-8 w-8 text-primary" />,
-    //   items: ["React Native", "Android (Java)", "Responsive Web Apps"],
-    // },
+    {
+      category: "Development Tools",
+      icon: <Server className="h-8 w-8 text-primary" />,
+      items: [
+        "WordPress",
+        "Figma & Bubble",
+        "Postman",
+        "Canva",
+        "Shopify",
+        "VS Code",
+      ],
+    },
+    {
+      category: "AI Tools & Platforms",
+      icon: <Smartphone className="h-8 w-8 text-primary" />,
+      items: [
+        "ChatGPT",
+        "GitHub Copilot",
+        "MidJourney",
+        "DALL·E",
+        "Perplexity",
+        "Grok",
+      ],
+    },
   ]
 
   const containerVariants = {

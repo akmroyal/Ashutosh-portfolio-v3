@@ -53,23 +53,23 @@ export default function AboutPageContent() {
 
   const experience = [
     {
-      position: "Junior Developer",
+      position: "Software Engineer Intern",
+      company: "E-Cosys Consultancy Pvt. Ltd.",
+      year: "01-July 2025 - 01-Oct 2025",
+      description: "Worked on scalable web application to increse the user engagment.",
+    },
+    {
+      position: "Gssoc - GirlScript Summer of Code 2025",
+      company: "GirlScript Foundation",
+      year: "2025",
+      description: "Contributed to open-source projects and collaborated with a global community of developers.",
+    },
+    {
+      position: "Entry-Level Developer with applied skills in",
       company: "Hackathons / College Projects / Personal Projects",
-      year: "2020 - 2021",
+      year: "2020 - 2025",
       description: "",
     },
-    // {
-    //   position: "Software Engineer",
-    //   company: "Enterprise Solutions",
-    //   year: "2021 - 2022",
-    //   description: "Worked on scalable backend systems using Java and Spring Boot.",
-    // },
-    // {
-    //   position: "Senior Developer",
-    //   company: "Innovation Labs",
-    //   year: "2022 - Present",
-    //   description: "Leading development of microservices architecture and mentoring junior developers.",
-    // },
   ]
 
   // Make awards and certifications clickable
@@ -80,24 +80,24 @@ export default function AboutPageContent() {
       details:
         "Certification for JavaScript programming skills, covering topics like functions, closures, prototypes, and ES6 features.",
     },
-    // {
-    //   name: "HackerRank Certified Java Programmer",
-    //   link: "#",
-    //   details:
-    //     "Advanced Java programming certification covering OOP concepts, collections, concurrency, and design patterns.",
-    // },
     {
       name: "HackerRank: Certified Problem Solver (Data Structure and Algo.)",
       link: "https://www.hackerrank.com/certificates/iframe/2d4d3b9e0cf6",
       details:
-        "Certification for problem-solving skills using data structures and algorithms, covering topics like arrays, linked lists, trees, and graph algorithms.",
+      "Certification for problem-solving skills using data structures and algorithms, covering topics like arrays, linked lists, trees, and graph algorithms.",
     },
-    // {
-    //   name: "Google Cloud Professional Developer",
-    //   link: "#",
-    //   details:
-    //     "Professional-level certification for developing applications using Google Cloud Platform services and APIs.",
-    // },
+    {
+      name: "Oracle Certified Generative Ai Developer",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5597599EE4F3DCE34635195F083625A50DA8741472ED2E0F0A46950A020EBFC3",
+      details:
+      "Professional-level certification for developing applications using GenAI tools with various platform services and APIs.",
+    },
+    {
+      name: "Contributor - GirlSript Summer of Code 2025",
+      link: "https://media.licdn.com/dms/image/v2/D5622AQE9S5gIJKV3Ng/feedshare-shrink_1280/B56ZjL1w0mHQAs-/0/1755766526541?e=1759363200&v=beta&t=Jp3JWNYLuMv5xzNewnTFh735y0Q2zpchuWys9l2sqrE",
+      details:
+        "Learnt and contributed to open source projects with GirlScript Foundation during their Summer of Code 2025 program.",
+    },
   ]
 
   return (
@@ -121,17 +121,19 @@ export default function AboutPageContent() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="relative group"
+          className="flex justify-center"
         >
-          <div className="absolute -inset-4 rounded-lg bg-gradient-to-r from-primary to-primary/20 opacity-30 blur-lg group-hover:opacity-70 transition-opacity duration-500" />
-          <div className="relative overflow-hidden rounded-lg border bg-background">
-            <Image
-              src="/profilImg.png"
-              alt="About me"
-              width={600}
-              height={600}
-              className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-            />
+          <div className="relative group w-[50%]">
+            <div className="absolute -inset-2 rounded-lg bg-gradient-to-r from-primary to-primary/20 opacity-30 blur-lg group-hover:opacity-70 transition-opacity duration-500" />
+            <div className="relative overflow-hidden rounded-lg border bg-background">
+              <Image
+                src="/profilImg.png"
+                alt="About me"
+                width={300}
+                height={300}
+                className="object-cover w-full h-auto group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
           </div>
         </motion.div>
 

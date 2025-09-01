@@ -24,26 +24,27 @@ export default function AboutSection() {
           transition={{ duration: 0.5 }}
           className="grid gap-10 md:grid-cols-2 items-center"
         >
-          <div className="relative group">
+          <div className="relative group flex justify-center">
             <div
-              className={`absolute -inset-4 rounded-lg bg-gradient-to-r from-primary to-primary/20 opacity-30 blur-lg transition-all duration-500 ${
-                isHovered ? "opacity-70 scale-105" : "opacity-30"
-              }`}
+              className={`absolute -inset-2 rounded-lg bg-gradient-to-r from-primary to-primary/20 opacity-30 blur-lg transition-all duration-500 ${isHovered ? "opacity-70 scale-105" : "opacity-30"
+                }`}
+              style={{ width: '50%', height: '100%', left: '12%' }}
             />
             <div
-              className="relative overflow-hidden rounded-lg border bg-background"
+              className="relative overflow-hidden rounded-lg border bg-background flex items-center justify-center"
+              style={{ width: '50%', height: '50%' }}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <div className="relative">
+              <div className="relative flex items-center justify-center" style={{ width: '100%', height: '100%' }}>
                 <Image
                   src="/profilImg.png"
                   alt="About me"
-                  width={600}
-                  height={600}
-                  className={`object-cover w-full h-full transition-all duration-500 ${
-                    isHovered ? "scale-110 filter grayscale" : "scale-100"
-                  }`}
+                  width={150}
+                  height={150}
+                  className={`object-cover transition-all duration-500 ${isHovered ? "scale-110 filter grayscale" : "scale-100"
+                    }`}
+                  style={{ width: '100%', height: '100%' }}
                 />
                 {isHovered && (
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">

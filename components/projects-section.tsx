@@ -20,14 +20,14 @@ export default function ProjectsSection() {
   }
   const devProjects = [
     {
-      title: "Gamification Learning Platform",
-      description:
-        "Student engagement and learning outcomes on WSCube's platform through an AI-powered gamification system. By integrating interactive game mechanics with adaptive AI, the system delivers a tailored and engaging learning experience.",
-      image: "/Gamified.png",
-      tags: ["Astro", "TypeScript", "React", "ShadCn", "MaterialUI"],
-      github: "https://github.com/akmroyal/Gamified-EdTech-Project",
-      demo: "#",
-      deploy: false,
+      title: "Clipio - Video Sharing Platform",
+      description: "This is the video sharing platform named AkVideoTube | Clipio, built for sharing and streaming videos with features like user authentication, video upload, and comments.",
+      image: "/clipio.gif",
+      tags: ["Reactjs", "JavaScript", "Tailwind CSS", "Axios", "Express.js", "Nodejs", "MongoDB", "Cloudinary"],
+      github: "https://github.com/akmroyal/Video-Tube-frontend.git",
+      demo: "https://ak-videotube.vercel.app/",
+      featured: true,
+      deploy: true,
     },
     {
       title: "Library Management System",
@@ -40,26 +40,29 @@ export default function ProjectsSection() {
       deploy: false,
     },
     {
-      title: "PDF Converter : Any 2 Any",
-      description: "This React.js-based PDF Converter allows users to convert files into different formats effortlessly. The application is designed with a modern UI using Tailwind CSS and offers multiple file conversion functionalities",
-      image: "/Any2Any.png",
-      tags: ["React", "TailwindCSS", "pdf.js", "file-saver", "react-dropzone"],
-      github: "https://github.com/akmroyal/ANY-2-ANY-Convrter-Project.git",
-      demo: "https://any-2-any-convrter-project.vercel.app/",
+      title: "Dev-Launch-Pad",
+      description: "A powerful collection of development tools built with React + TypeScript + Vite, designed to make developers' lives easier and more productive. Clean UI, fast performance, and crafted with 💖.",
+      image: "/devlaunchpad.gif",
+      tags: ["Vite + React", "TypeScript", "Web-Socket", "Tailwind CSS", "Framer Motion", "ShadCn",],
+      github: "https://github.com/akmroyal/Dev-Launch-Pad-Tools-App.git",
+      demo: "https://dev-launch-pad-tools-app.vercel.app/",
+      featured: true,
       deploy: true,
     },
   ]
 
   const compProjects = [
-    // {
-    //   title: "Algorithm Visualizer",
-    //   description:
-    //     "An interactive tool to visualize various algorithms including sorting, pathfinding, and graph algorithms.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["JavaScript", "React", "Data Structures", "Algorithms", "Canvas API"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "Library Management System",
+      description:
+        "A simple console-based Library Management System built in Java that allows users to manage books, handle user registration/login, track book transactions, and calculate fines for overdue returns.",
+      image: "/LMS.png",
+      tags: ["Java", "Object Oriented Programming", "File Handling", "Collections", "Console Application", "Data Structures"],
+      github: "https://github.com/akmroyal/LibraryMangSystem-JAVA.git",
+      demo: "#",
+      featured: true,
+      deploy: false,
+    },
     {
       title: "Competitive Programming Solutions",
       description:

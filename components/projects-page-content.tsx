@@ -15,6 +15,26 @@ import Swal from "sweetalert2"
 export default function ProjectsPageContent() {
   const devProjects = [
     {
+      title: "HealthScribe - AI-Powered Medical Transcriptor",
+      description: "HealthScribe is an AI-powered medical assistant that transforms doctor-patient conversations into structured clinical notes, saving 60% of documentation time.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["JavaScript", "Vite + React", "Supabase", "Express.js", "Nodejs", "OpenAI API + Whisper"],
+      github: "https://github.com/akmroyal/HealthScribe-MERN-Project.git",
+      demo: "#",
+      featured: true,
+      deploy: false,
+    },
+    {
+      title: "Clipio - Video Sharing Platform",
+      description: "This is the video sharing platform named AkVideoTube | Clipio, built for sharing and streaming videos with features like user authentication, video upload, and comments.",
+      image: "/clipio.gif",
+      tags: ["Reactjs", "JavaScript", "Tailwind CSS", "Axios", "Express.js", "Nodejs", "MongoDB", "Cloudinary"],
+      github: "https://github.com/akmroyal/Video-Tube-frontend.git",
+      demo: "https://ak-videotube.vercel.app/",
+      featured: true,
+      deploy: true,
+    },
+    {
       title: "Gamification Learning Platform",
       description:
         "Student engagement and learning outcomes on WSCube's platform through an AI-powered gamification system. By integrating interactive game mechanics with adaptive AI, the system delivers a tailored and engaging learning experience.",
@@ -26,6 +46,27 @@ export default function ProjectsPageContent() {
       deploy: false,
     },
     {
+      title: "CareerQuest - Job Board Platform",
+      description:
+        "CareerQuest is a modern job board platform which provides a seamless experience for both job seekers and employers.",
+      image: "/careerquiest.gif",
+      tags: ["ReactJs", "TailwindCSS", "Node.js", "MongoDB", "ExpressJS", "ShadCN"],
+      github: "https://github.com/akmroyal/CareerQuest-WebApp.git",
+      demo: "#",
+      featured: true,
+      deploy: false,
+    },
+    {
+      title: "Dev-Launch-Pad",
+      description: "A powerful collection of development tools built with React + TypeScript + Vite, designed to make developers' lives easier and more productive. Clean UI, fast performance, and crafted with 💖.",
+      image: "/devlaunchpad.gif",
+      tags: ["Vite + React", "TypeScript", "Web-Socket", "Tailwind CSS", "Framer Motion", "ShadCn",],
+      github: "https://github.com/akmroyal/Dev-Launch-Pad-Tools-App.git",
+      demo: "https://dev-launch-pad-tools-app.vercel.app/",
+      featured: true,
+      deploy: true,
+    },
+    {
       title: "Online Book Store",
       description:
         "The Online Book Management System is a MERN-stack project that enables users to manage books efficiently with authentication, CRUD operations, and data visualization.",
@@ -33,7 +74,7 @@ export default function ProjectsPageContent() {
       tags: ["ReactJs", "TailwindCSS", "Node.js", "MongoDB", "ExpressJS"],
       github: "https://github.com/akmroyal/online-book-managment-frontend.git",
       demo: "#",
-      featured: true,
+      featured: false,
       deploy: false,
     },
     {
@@ -56,16 +97,16 @@ export default function ProjectsPageContent() {
       featured: true,
       deploy: true,
     },
-    // {
-    //   title: "Weather Forecast App",
-    //   description: "A mobile-responsive weather application with location detection and 7-day forecasts.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["JavaScript", "React Native", "API Integration", "Geolocation"],
-    //   github: "#",
-    //   demo: "#",
-    //   featured: false,
-    //   deploy: false,
-    // },
+    {
+      title: "SMS - Student Management System",
+      description: "This is a PERN stack based practiced Student Management System (SMS) that allows users to perform CRUD operations with students record and with charts for data visualization.",
+      image: "/SMS.png",
+      tags: ["React", "JavaScript", "Tailwind CSS", "Express.js", "Node.js", "PostgreSQL", "Chart.js"],
+      github: "https://github.com/akmroyal/SMS-PERN-Stack.git",
+      demo: "https://sms-pern-stack.vercel.app/",
+      featured: false,
+      deploy: true,
+    },
     {
       title: "Portfolio Website",
       description: "This is a React.js-based portfolio website that showcases my skills, projects, and contact information in an interactive and visually appealing way.",
@@ -79,17 +120,17 @@ export default function ProjectsPageContent() {
   ]
 
   const compProjects = [
-    // {
-    //   title: "Algorithm Visualizer",
-    //   description:
-    //     "An interactive tool to visualize various algorithms including sorting, pathfinding, and graph algorithms.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["JavaScript", "React", "Data Structures", "Algorithms", "Canvas API"],
-    //   github: "#",
-    //   demo: "#",
-    //   featured: true,
-    //   deploy: false,
-    // },
+    {
+      title: "Library Management System",
+      description:
+        "A simple console-based Library Management System built in Java that allows users to manage books, handle user registration/login, track book transactions, and calculate fines for overdue returns.",
+      image: "/LMS.png",
+      tags: ["Java", "Object Oriented Programming", "File Handling", "Collections", "Console Application", "Data Structures"],
+      github: "https://github.com/akmroyal/LibraryMangSystem-JAVA.git",
+      demo: "#",
+      featured: true,
+      deploy: false,
+    },
     {
       title: "Competitive Programming Solutions",
       description:
