@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { SiCodechef, SiCodeforces, SiCodingninjas, SiGeeksforgeeks, SiLeetcode } from "react-icons/si"
-import { FaBlogger, FaDev, FaHackerrank, FaMedium } from "react-icons/fa"
+import { FaBlogger, FaDev, FaHackerrank, FaInstagram, FaMedium } from "react-icons/fa"
 import {
   Github,
   Linkedin,
@@ -23,6 +23,7 @@ import {
   Award,
   Briefcase,
   Code,
+  Instagram,
 } from "lucide-react"
 import QRCode from "./qr-code"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
@@ -51,11 +52,11 @@ export default function ProfileContent() {
         url: "https://x.com/akm_royals",
         icon: <Twitter className="h-6 w-6" />,
       },
-      // {
-      //   title: "Portfolio",
-      //   url: "https://yourportfolio.com",
-      //   icon: <Globe className="h-6 w-6" />,
-      // },
+      {
+        title: "Portfolio",
+        url: "https://www.instagram.com/akm_royal/",
+        icon: <FaInstagram className="h-6 w-6" />,
+      },
       {
         title: "Email",
         url: "mailto:ashutosh.maurya2285@gmail.com",
@@ -83,7 +84,7 @@ export default function ProfileContent() {
     coding: [
       {
         title: "LeetCode",
-        url: "https://leetcode.com/u/ashu_maurya/",
+        url: "https://leetcode.com/u/akm_royal/",
         icon: <SiLeetcode className="h-6 w-6" />,
       },
       {
@@ -120,7 +121,7 @@ export default function ProfileContent() {
       },
       {
         title: "Medium",
-        url: "https://medium.com/@ashutoshmaxxxx",
+        url: "https://medium.com/@ashu-maurya",
         icon: <FaMedium className="h-6 w-6" />,
       },
       {

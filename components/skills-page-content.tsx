@@ -14,9 +14,9 @@ export default function SkillsPageContent() {
       items: [
         { name: "Java", level: 95 },
         { name: "JavaScript", level: 80 },
-        // { name: "TypeScript", level: 85 },
+        { name: "TypeScript", level: 55 },
         { name: "C/C++", level: 90 },
-        { name: "Python", level: 60 },
+        { name: "Python", level: 50 },
       ],
     },
     {
@@ -50,8 +50,9 @@ export default function SkillsPageContent() {
       items: [
         { name: "Node.js", level: 60 },
         { name: "Express.js", level: 40 },
-        // { name: "Spring Boot", level: 85 },
-        { name: "RESTful APIs", level: 35 },
+        { name: "Supabase", level: 85 },
+        { name: "Firebase", level: 75 },
+        { name: "RESTful APIs", level: 65 },
         // { name: "GraphQL", level: 80 },
         // { name: "Microservices", level: 85 },
       ],
@@ -61,7 +62,7 @@ export default function SkillsPageContent() {
       icon: <Database className="h-8 w-8 text-primary" />,
       items: [
         { name: "MySQL", level: 90 },
-        // { name: "PostgreSQL", level: 85 },
+        { name: "PostgreSQL", level: 85 },
         { name: "MongoDB", level: 90 },
         // { name: "Redis", level: 80 },
         // { name: "ORM (Hibernate, Sequelize)", level: 85 },
@@ -74,7 +75,7 @@ export default function SkillsPageContent() {
       items: [
         { name: "Git", level: 90 },
         { name: "Docker", level: 45 },
-        // { name: "CI/CD", level: 80 },
+        { name: "CI/CD", level: 80 },
         { name: "AWS(Basic)", level: 40 },
         { name: "Linux", level: 10 },
         // { name: "Agile Methodologies", level: 85 },
@@ -92,18 +93,30 @@ export default function SkillsPageContent() {
         // { name: "Scalable Architecture", level: 80 },
       ],
     },
-    // {
-    //   category: "Mobile Development",
-    //   icon: <Smartphone className="h-8 w-8 text-primary" />,
-    //   items: [
-    //     { name: "React Native", level: 85 },
-    //     { name: "Android (Java)", level: 80 },
-    //     { name: "Responsive Web Apps", level: 95 },
-    //     { name: "Mobile UI/UX", level: 85 },
-    //     { name: "App Performance", level: 80 },
-    //     { name: "Cross-platform Development", level: 85 },
-    //   ],
-    // },
+    {
+      category: "Development Tools",
+      icon: <Server className="h-8 w-8 text-primary" />,
+      items: [
+        { name: "WordPress", level: 67 },
+        { name: "Figma & Bubble", level: 70 },
+        { name: "Postman", level: 80 },
+        { name: "Canva", level: 85 },
+        { name: "Shopify", level: 75 },
+        { name: "VS Code", level: 95 },
+      ],
+    },
+    {
+      category: "AI Tools & Platforms",
+      icon: <Smartphone className="h-8 w-8 text-primary" />,
+      items: [
+        { name: "ChatGPT", level: 67 },
+        { name: "GitHub Copilot", level: 70 },
+        { name: "MidJourney", level: 80 },
+        { name: "DALL·E", level: 85 },
+        { name: "Perplexity", level: 75 },
+        { name: "Grok", level: 75 },
+      ],
+    },
   ]
 
   const containerVariants = {
